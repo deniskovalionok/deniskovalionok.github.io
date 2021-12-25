@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My_church</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+        <script src="jquery-3.5.1.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header_logo">
+                <h1>MY CHURCH</h1>
+            </div>
+
+            <div class="header_menu">
+                <a href="#intro" class="menu_item">Главная</a> 
+                <a href="#broadcast" class="menu_item">Трансляции</a> 
+                <a href="#about" class="menu_item">О нас</a>
+                <a href="#ministries"class="menu_item">Служения</a>
+                <a href="#achievements" class="menu_item">Наши достижения</a>
+                <a href="#send" class="menu_item">Обратная связь</a>   
+            </div>
+        </header>
+
+        <main>
+            <section class="intro" id="intro">
+                <div class="wrapper">
+                    <div class="intro_wrapper">
+                        <div class="intro_left">
+                            <img class="intro_img" src="church.jfif" alt="INTRO">
+                        </div>
+        
+                        <div class="intro_right">
+                            <h1 class="intro_title">
+                                Добро пожаловать в церковь My Church!
+                            </h1>
+                            <button id="myButton" class="send_button">НАПИСАТЬ НАМ</button>
+                            <div id="myModal" class="modal">
+                                <div id="myContent" class="modal_content">
+                                    <div id="myClose" class="close">&times;</div>
+                                        <div class="wrapper">
+                                            <div class="send_wrapper">
+                                                <h1 class="modal_title">НАПИШИТЕ НАМ</h1>
+                                                <form>
+                                                    <div class="send_form">
+                                                        <div>
+                                                            <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                                            <input type="email" class="form2 formstyle" placeholder="Ваш email">
+                                                        </div>
+                                                        <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                                        <button class="modal_button">Отправить</button>
+                                                    </div>
+                                                </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="broadcast" id="broadcast">
+                <div class="wrapper">
+                    <div class="broadcast_wrapper">
+                        <h1 class="broadcast_title">
+                            Подключайтесь к прямым трансляциям
+                        </h1>
+    
+                        <video src="broadcast.mp4" class="broadcast_video" controls ='controls'></video>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="wrapper">
+                    <div class="about_wrapper">
+                        <h1 class="about_title">
+                            О НАС
+                        </h1>
+
+                    <p class="about_text">
+                        Церковь «My Chucrh», входящая в Российский объединенный союз христиан веры евангельской (пятидесятников), считает себя частью Вселенской Церкви – Тела Христова и стремится к братскому общению и служению Господу со всеми, кто верует в Христа и служит Ему. Вероучение нашей церкви основывается на Священном Писании Ветхого и Нового Заветов и соответствует Никео-Цареградскому Символу веры и вероучительному определению IV Вселенского (Халкидонского) Собора (Халкидонскому оросу)
+                    </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ministries" id="ministries">
+                <div class="wrapper">
+                    <div class="ministries_wrapper">
+                        <h1 class="ministries_title">
+                            Служения
+                        </h1>
+
+                        <div class="ministries_foto">
+                            <img class="minis_foto" src="study.jpg" alt="STUDY">
+                            <img class="minis_foto" src="pray.jpg" alt="STUDY">
+                            <img class="minis_foto" src="family.jpg" alt="STUDY">
+                            <img class="minis_foto" src="help.jpg" alt="STUDY">
+                            <img class="minis_foto" src="study.jpg" alt="STUDY">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="achievements" id="achievements">
+                <div class="wrapper">
+                    <h3 class="achievements_title">НАШИ ДОСТИЖЕНИЯ</h3>
+                    <div class="achievements_wrapper">
+                        <div class="achievements_left">
+                            <h3 class="skill skill_1">Библейское ученичество</h3>
+                            <h3 class="skill skill_2">Миссинерское служение</h3>
+                            <h3 class="skill skill_3">Финансовая помощь</h3>
+                        </div>
+
+                        <div class="achievements_right">
+                            <img src="achievements.jpg" alt="achievements" class="achievements_img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="gallery">
+                    <div class="gallery_str">
+                        <a href="1.jpg" class="lightzoom">
+                            <img src="1.jpg" alt="Картинка1" class="gallery_img">
+                        </a>
+    
+                        <a href="2.jpg" class="lightzoom">
+                            <img src="2.jpg" alt="Картинка2" class="gallery_img">
+                        </a>
+    
+                        <a href="3.jpg" class="lightzoom">
+                            <img src="3.jpg" alt="Картинка3" class="gallery_img">
+                        </a>
+
+                        <a href="4.jpg" class="lightzoom">
+                            <img src="4.jpg" alt="Картинка4" class="gallery_img">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="send" id="send">
+                <div class="wrapper">
+                    <div class="send_wrapper">
+                        <h1 class="send_title">НАПИШИТЕ НАМ</h1>
+
+                        <form>
+                            <div class="send_form">
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                    <input type="email" class="form2 formstyle" placeholder="Ваш email">
+                                </div>
+                                <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                <button class="send_button1">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer>
+                <div class="wrapper">
+                    <div class="footer_wrapper">
+                        <div class="left_footer">
+                            <h3 class="footer_title">© 1993-2021 Объединения церквей “My Church”</h3>
+                        </div>
+    
+                        <div class="right_footer">
+                            <img src="vk.png" alt="VK" class="footer_img">
+                            <img src="vk1.png" alt="VK" class="footer_img">
+                            <img src="fs.png" alt="VK" class="footer_img">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <link rel="stylesheet" href="lightzoom/style.css">
+        <script src="lightzoom/lightzoom.js"></script>
+        <script>jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true});</script>
+        <script src="myscript.js"></script>
+    </body>
+
+</html>
